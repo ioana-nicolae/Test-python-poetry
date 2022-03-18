@@ -19,7 +19,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = "3.7.*"
-loguru = "0.5.3"
+loguru = "0.6.0"
 psutil = "*"
 
 [tool.poetry.dev-dependencies]
