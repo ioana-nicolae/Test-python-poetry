@@ -13,15 +13,14 @@
     "minSeverityLevel": "LOW"  
   }, 
   "remediateSettings": {
-  "enableRenovate": true,
+   "enableRenovate": true,
+   "constraints": {
+       "python": "3.7"
+    },
    "extends": [
      "github>whitesource/merge-confidence:beta",
      "config:base",
      "github>whitesource/log4j-remediations"
-     ],
-    "constraints": {
-       "python": "3.7"
-    }
- 
+     ]  
   }
 }
